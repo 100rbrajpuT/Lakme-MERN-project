@@ -1,0 +1,135 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "LAKME BLUSH AND GLOW SHIT MASK VALUE SET OF 10",
+      "image_url":
+        "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/27474_H_8901030858710_300x.jpg?v=1634889505",
+      "price": 699,
+      "cate":"Cream"
+    },
+    {
+      "id": 2,
+      "name": "LAKME 9 TO 5 VITAMIN C +  SKINCARE VALUE SET",
+      "image_url":
+        "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/Hero_Image_LiquidLip-Color-duo-_11_300x.png?v=1659696652",
+      "price": 790,
+      "cate":"Matie"
+    },
+    {
+      "id": 3,
+      "name": "LAKME GREENTEA ESSENTIALS KIT",
+      "image_url":
+        "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/img1_3_1_300x.jpg?v=1620910668",
+      "price": 699,
+      "cate":"Green-Kit"
+    },
+    {
+      "id": 4,
+      "name": "LAKME 9 TO 5 PRIMER + MATTE LIP COLOR",
+      "image_url":
+        "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/Lakme9to5Primer_MatteLipColorRedLetter_300x.jpg?v=1598243140",
+      "price": 450,
+      "cate":"Lip-Color"
+    },
+    
+    {
+      "id": 5,
+      "name": "LAKME FOREVER MATTE LIQUID LIP COLOR",
+      "image_url":
+        "https://cdn-fsly.yottaa.net/5a0c9b7632f01c35d42101b2/o~f_webp/v~4b.93.0.0/https://www.elfcosmetics.com/dw/image/v2/BBXC_PRD/on/demandware.static/-/Sites-elf-master/default/dwf3b7edc2/81235_900px_8-30-2017-23-22-22webA.jpg?sfrm=jpg&strip=false",
+      "price":295,
+      "cate":"Lip-Color"
+    },
+    {
+      "id": 6,
+      "name": "LAKME ABSOLUTE MATTE ULTIMATE LIP COLOR WITH ARGON OIL",
+      "image_url":
+        "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/LakmeAbsoluteMatteUltimateLipColorwithArganOilPetalPink_41b560b6-3f0d-47b2-bfd5-075cf7bc0934_300x.jpg?v=1599200805",
+      "price": 800,
+      "cate":"Lip-Color"
+    },
+    {
+      "id": 7,
+      "name": "LAKME ABSOLUTE GEL STYLISH GEL NAIL COLOR",
+      "image_url":
+        "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/Blackjack_300x.png?v=1598528925",
+      "price": 250,
+      "cate":"Lip-Color"
+    },
+    {
+      "id": 8,
+      "name": "LAKME EYECONIC KAJAL ",
+      "image_url":
+        "https://cossouq.com/media/catalog/product/cache/44b22065c7d433ce6228aa6556823c1f/l/a/lakm_eyeconic_kajal_-_black_0.35gm-dg01l1000001-01.jpg",
+      "price":  185,
+      "cate":"Kajal"
+    },
+    {
+      "id": 9,
+      "name": "LAKME COLOR CRUSH NAIL ART",
+      "image_url":
+        "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/M1_300x.jpg?v=1601551574",
+      "price": 155,
+      "cate":"Lip-Color"
+    },
+    {
+      "id": 10,
+        "name": "LAKME 9 TO 5 CC COMPLEXION CARE CREAM , 9GM",
+        "image_url":
+          "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/Lakme9to5CCComplexionCareCream_9gmBeige_300x.jpg?v=1598101798",
+        "price": 99,
+        "cate":"Cream"
+      },
+      {
+        "id": 11,
+        "name": "LAKME ABSOLUE SPOTLIGHT EYESHADOW PALLETTE",
+        "image_url":
+          "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/2-fop-smokin-glam_1_300x.jpg?v=1603894790",
+        "price": 597,
+        "cate":"Kajal"
+      },
+      {
+        "id": 12,
+        "name": "LAKME TRUE WEAR NAIL COLOR",
+        "image_url":
+          "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/Pinks-N238_300x.jpg?v=1603185561",
+        "price":88,
+        "cate":"Lip-Color"
+      },
+      {
+        "id": 13,
+        "name": "LAKME INSTA EYELINER",
+        "image_url":
+          "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/24329_S1-8901030719165_300x.jpg?v=1633765701",
+        "price": 130,
+        "cate":"Kajal"
+      },
+      {
+        "id": 14,
+        "name": "LAKME 9 TO 5 PRIMER + MATTE PERFECT COVER FOUNDATION",
+        "image_url":
+          "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/24451_S1-8901030742439_300x.jpg?v=1611755731",
+        "price": 352,
+        "cate":"Matie"
+      },
+      {
+        "id": 15,
+        "name": "LAKME CUSHION MATTE",
+        "image_url":
+          "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/24704_H-8901030776533_300x.jpg?v=1601452154",
+        "price": 275,
+        "cate":"Matie"
+      } 
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
