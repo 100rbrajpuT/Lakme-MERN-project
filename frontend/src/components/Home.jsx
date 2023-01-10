@@ -44,8 +44,12 @@ const Home = () => {
             },
         }
         dispatch(getProducsRequest())
+        //https://backend-puce-eight.vercel.app/products
+        //
+        //http://localhost:8080/products
+        //http://localhost:8090/posts
          axios
-        .get("https://backend-puce-eight.vercel.app/products", queryParams)
+        .get("https://backend-100rbrajput.vercel.app/products", queryParams)
         .then((r)=>{
           console.log(r)
             return(dispatch(getProducsSuccess(r.data)))

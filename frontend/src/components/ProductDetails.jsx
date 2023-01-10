@@ -17,7 +17,7 @@ const ProductDetails = () => {
 
     useEffect(()=>{
         if(id){
-            axios.get(`https://backend-puce-eight.vercel.app/products/${id}`)
+            axios.get(`https://backend-100rbrajput.vercel.app/products/${id}`)
         .then((r)=>{
             setCurrentProduct(r.data)
         })
@@ -30,7 +30,7 @@ const ProductDetails = () => {
         // }
         const addTobag=()=>{
             dispatch(addToBagReq())
-            fetch("https://backend-puce-eight.vercel.app/bags/create",{
+            fetch("https://backend-100rbrajput.vercel.app/bags/create",{
                 method: "POST",
                 headers:{
                   'Content-Type':'application/json',

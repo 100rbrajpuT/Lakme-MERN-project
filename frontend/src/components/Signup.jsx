@@ -16,7 +16,7 @@ const Signup = () => {
         age
       }
 //https://afternoon-garden-45528.herokuapp.com/user/signup
-      fetch("https://backend-puce-eight.vercel.app/user/signup",{
+      fetch("https://backend-100rbrajput.vercel.app/user/signup",{
         method: "POST",
         headers:{
           'Content-Type':'application/json'

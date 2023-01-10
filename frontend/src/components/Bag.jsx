@@ -11,9 +11,9 @@ const Bag = () => {
     const [id, setId] = useState()
     const [bag, setBags]= useState([])
     const token = localStorage.getItem("psc_app_token")
-  
+      //  console.log(id)
     const getData = ()=>{
-       fetch("https://backend-puce-eight.vercel.app/bags",{
+       fetch("https://backend-100rbrajput.vercel.app/bags",{
         method: "GET",
         headers:{
           'Authorization':`Bearer ${token}`
@@ -30,7 +30,7 @@ const Bag = () => {
 
     const dltbag=()=>{
       alert("dlted")
-      fetch(`https://backend-puce-eight.vercel.app/bags/delete/${id}`,{
+      fetch(`https://backend-100rbrajput.vercel.app/bags/delete/${id}`,{
         method: "DElETE",
         headers:{
           'Authorization':`Bearer ${token}`
@@ -47,12 +47,16 @@ const Bag = () => {
      //console.log("id", id)
     // }
     useEffect(()=>{
-      fetch(`https://backend-puce-eight.vercel.app/bags/delete/${id}`,{
+      // async function deletebag(){
+        ///https://backend-100rbrajput.vercel.app/products
+        fetch(`https://backend-100rbrajput.vercel.app/bags/delete/${id}`,{
         method: "DElETE",
         headers:{
           'Authorization':`Bearer ${token}`
         },
       })
+    ///  } 
+      
     },[id])
 
 
@@ -78,7 +82,9 @@ const Bag = () => {
                     <p style={{padding:"7px"}}>₹{e.price}</p>
                     <p style={{padding:"5px" , border:"3px solid black", height:"50%", borderRadius:"10px"}}>
                       <button onClick={()=> setId(`${e.id}`)}>Delete</button>
+                     
                     </p>
+                    {/* <button onClick={dltbag}>Delete2</button> */}
                 </div>   
             )
           })
